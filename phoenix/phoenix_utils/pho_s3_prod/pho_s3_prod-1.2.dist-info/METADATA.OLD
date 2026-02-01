@@ -1,0 +1,19 @@
+Metadata-Version: 2.0
+Name: pho-s3-prod
+Version: 1.2
+Summary: S3Handler is a Python class that provides a simple interface for interacting with S3 object storage: upload, download, delete and other options
+Home-page: null
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: Private Domain
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Linux
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Environment :: Console
+Requires-Python: >=3.8
+Requires-Dist: boto3
+Requires-Dist: pika
+Requires-Dist: pytest
+Requires-Dist: setuptools
+Requires-Dist: unittest2
+

@@ -1,0 +1,23 @@
+Metadata-Version: 2.0
+Name: pho-db-prod
+Version: 1.6
+Summary: DataBase Handler is a Python class that provides a simple interface for interacting with DBs: connectc, disconnect, execute and fetchall
+Home-page: null
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: Private Domain
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Linux
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Environment :: Console
+Requires-Python: >=3.8
+Requires-Dist: pytest
+Requires-Dist: setuptools
+Requires-Dist: unittest2
+Requires-Dist: pymysql
+Requires-Dist: pyodbc
+Requires-Dist: pytest
+Requires-Dist: setuptools
+Requires-Dist: unittest2
+Requires-Dist: pymongo
+

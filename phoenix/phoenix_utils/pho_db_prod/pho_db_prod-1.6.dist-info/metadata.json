@@ -1,0 +1,16 @@
+{
+    "classifiers": ["Development Status :: 4 - Beta", "License :: Private Domain", "Operating System :: Microsoft :: Windows", "Operating System :: Linux", "Programming Language :: Python :: 3.7", "Topic :: Software Development :: Build Tools", "Environment :: Console"],
+    "extensions": {
+    "extras": [],
+    "generator": "bdist_wheel (0.30.0)",
+    "license": "BSD",
+    "metadata_version": "2.0",
+    "name": "pho-db-prod",
+    "requires_python": ">=3.8",
+    "run_requires": [{
+            "requires": ["pymongo", "pymysql", "pyodbc", "pytest", "pytest", "setuptools", "setuptools", "unittest2", "unittest2"]
+        }
+    ],
+    "summary": "DataBase Handler is a Python class that provides a simple interface for interacting with DBs: connectc, disconnect, execute and fetchall",
+    "version": "1.6"
+}
