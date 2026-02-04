@@ -1,0 +1,78 @@
+{
+  "_id": {
+    "$oid": "11111111111111111111111111"
+  },
+  "input_type": {
+    "file_watcher": {
+      "directory": "PATH",
+      "watcher_timeout": 100,
+      "copying_complete_check_timeout": 100
+    },
+    "file_system_monitor": {
+      "monitors": [
+        {
+          "path": "PATH",
+          "working_directory": "PATH",
+          "keyname": "WD-01",
+          "sleep_intervals": 15,
+          "eventkey": "guardian.metadata.a.logs"
+        },
+        {
+          "path": "PATH",
+          "working_directory": "PATH",
+          "keyname": "WD-02",
+          "sleep_intervals": 15,
+          "eventkey": "guardian.metadata.b.logs"
+        }
+      ],
+      "watcher_timeout": 100,
+      "copying_complete_check_timeout": 100
+    }
+  },
+  "output_type": {
+    "rabbitmq": {
+      "exchange_type": "direct",
+      "queue_name": "guardian.metadata.logs",
+      "routing_key": "guardian.metadata.logs",
+      "prefetch": 1,
+      "mandatory": "True",
+      "virtual_host": "apps"
+    }
+  },
+  "costume_config": {
+    "original_file_backup_path": "PATH",
+    "move_file_retries": 500,
+    "copy_file_retries": 500,
+    "retries_delay": 5,
+    "damaged_path": "PATH",
+    "queue_path": "PATH",
+    "timeout": "1800",
+    "rabbitmq": {
+      "exchange": "Exchange"
+    },
+    "severity": {
+      "virustotal": "high",
+      "eset": "low",
+      "insight": "high",
+      "thor": "low",
+      "spur": "low",
+      "fireeye": "low",
+      "dyson": "low"
+    },
+    "status": "InProggress",
+    "message": "Arrived to Network A",
+    "index": "_logs",
+    "destination_network": "B"
+  },
+  "logger": {
+    "application": "guardianmetadataproducer",
+    "handlers": {
+      "stdout": {
+        "min_level": "INFO",
+        "max_level": "ERROR"
+      }
+    }
+  },
+  "version": 1,
+  " environment": "test"
+}

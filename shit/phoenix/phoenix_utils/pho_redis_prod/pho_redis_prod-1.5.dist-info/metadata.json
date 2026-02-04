@@ -1,0 +1,15 @@
+{
+    "extensions": {
+    "extras": [],
+    "generator": "bdist_wheel (0.30.0)",
+    "license": "BSD",
+    "metadata_version": "2.0",
+    "name": "pho-redis-prod",
+    "requires_python": ">=3.9",
+    "run_requires": [{
+            "requires": ["redis"]
+        }
+    ],
+    "summary": "${DESCRIPTION}",
+    "version": "1.5"
+}

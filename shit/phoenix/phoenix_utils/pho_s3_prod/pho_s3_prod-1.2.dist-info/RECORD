@@ -1,0 +1,12 @@
+pho_s3/AmazonS3Utility.py,sha256=AfMwEGbreoI6Mzdlfh1iexFtxCDHVHar-e5IVnVJtdo,9398
+pho_s3/S3ClientAmazonS3.py,sha256=_sRhnxBIs_QQfAUcjlnfkYuM88jdyiWPi7Dn75IC0P8,14430
+pho_s3/S3objct.py,sha256=I8lSYoZU4b_tpVB5kRIJrlA7GMDRi9Lvlz3EXqXYkwo,598
+pho_s3/__init__.py,sha256=c8z_2QFPfnNyLfWC3-gYwvs89oFD_79qrf7p15G7Jm8,44
+pho_s3/logging_utils.py,sha256=Ag5qT9fWo8s5pMQLWhXJ_8EFF-wTTJdgxOJ89x-T3ro,1979
+pho_s3/Abstract/IS3ClientAmazonS3.py,sha256=ph4QepXgqitHzWU6y2mUzLCt4HNkxzXCnx5WkAwNQQY,5264
+pho_s3/Abstract/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pho_s3_prod-1.2.dist-info/METADATA,sha256=ZQEZScRfryryKluZ_U1UJLNb_9dfknMxdlVMooow0ZI,707
+pho_s3_prod-1.2.dist-info/RECORD,,
+pho_s3_prod-1.2.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+pho_s3_prod-1.2.dist-info/metadata.json,sha256=W7NC066B38ON9zit08S9OQdBll7tyablIeFKUuaU_8c,806
+pho_s3_prod-1.2.dist-info/top_level.txt,sha256=LKeOJd6XFcVA1eZux6lkccw5Q2pRxQnBnT1ZQSqcaEc,7
