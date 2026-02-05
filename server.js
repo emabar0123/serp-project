@@ -5,10 +5,10 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 const mongoUri =
-  process.env.MONGODB_URI ||
+  process.env.MONGO_URL ||
   "mongodb://admin:123@172.16.161.45:27017/?authSource=admin";
-const dbName = process.env.MONGODB_DB || "serpents-config";
-const collectionName = process.env.MONGODB_COLLECTION || "configurations";
+const dbName = process.env.MONGO_DB || "serpents-config";
+const collectionName = process.env.MONGO_COLLECTION || "configurations";
 
 let client;
 

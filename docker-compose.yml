@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  config-server:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      MONGO_URL: "mongodb://admin:123@172.16.161.45:27017/?authSource=admin"
+      MONGO_DB: "serpents-config"
+      MONGO_COLLECTION: "configurations"

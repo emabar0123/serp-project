@@ -20,9 +20,9 @@ Server listens on `PORT` (default `3000`).
 Set these variables (examples in `.env`):
 
 ```
-MONGODB_URI=mongodb://admin:123@172.16.161.45:27017/?authSource=admin
-MONGODB_DB=serpents-config
-MONGODB_COLLECTION=configurations
+MONGO_URL=mongodb://admin:123@172.16.161.45:27017/?authSource=admin
+MONGO_DB=serpents-config
+MONGO_COLLECTION=configurations
 PORT=3000
 ```
 
@@ -44,5 +44,5 @@ curl http://localhost:3000/configurations/by-name/lil-test
 
 ```
 docker build -t config-server .
-docker run -p 3000:3000 -e MONGODB_URI="mongodb://admin:123@172.16.161.45:27017/?authSource=admin" -e MONGODB_DB=serpents-config -e MONGODB_COLLECTION=configurations config-server
+docker run -p 3000:3000 -e MONGO_URL="mongodb://admin:123@172.16.161.45:27017/?authSource=admin" -e MONGO_DB=serpents-config -e MONGO_COLLECTION=configurations config-server
 ```
