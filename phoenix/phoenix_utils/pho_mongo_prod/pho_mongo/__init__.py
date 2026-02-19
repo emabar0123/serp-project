@@ -1,1 +1,0 @@
-from pho_mongo.mongo_adapter import MongoAdapter

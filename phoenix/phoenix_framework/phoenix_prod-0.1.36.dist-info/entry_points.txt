@@ -1,2 +1,0 @@
-[console_scripts]
-phoenix = phoenix.__main__:main

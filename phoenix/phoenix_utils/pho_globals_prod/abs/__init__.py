@@ -1,4 +1,0 @@
-from .extractor_abc import Extract
-from .phoenix_base_forensic_tool import PhoenixBaseForensicTool
-from .phoenix_base_results_handler import PhoenixBaseResultHandler
-# from .threatintel_base_indexer_handler import ThreatIntelIndexer
