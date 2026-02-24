@@ -1,9 +1,0 @@
-Metadata-Version: 2.0
-Name: pho-logger-prod
-Version: 1.5
-Home-page: null
-Requires-Python: >=3.7
-Requires-Dist: colorlog
-Requires-Dist: unittest2
-Requires-Dist: elasticsearch
-

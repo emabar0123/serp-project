@@ -1,7 +1,0 @@
-Metadata-Version: 2.0
-Name: pho-mongo-prod
-Version: 1.4
-Home-page: null
-Requires-Python: >=3.8
-Requires-Dist: pymongo
-
